@@ -21,6 +21,15 @@ That is possible filter the data from the follow packets:
 - UDP ( V4 and V6)
 - ICMP( V4 and V6)
 
+# Installation     
+- Instal: pip install pynput
+
+- Clone it: git clone https://github.com/sanjokkarki/ThePacsniff.git     
+
+- Run it: python TheSpylogger.py  
+
+You can also convert TheSpylogger to EXE using PyInstaller or any similar tool.
+
 # Run
 
 - sudo python3 Packet-Sniffer.py

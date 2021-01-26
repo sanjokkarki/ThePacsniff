@@ -1,8 +1,9 @@
-# ThePacsniff
+# ThePacsniff by @TheSanjok
+#Copyright @TheSanjok
 
 # Overview
 
-ThePacsniff created in Python 3. Allows you to monitor traffic running through local network. Allows the user to be able to view Source of the packets, Target host and the type of protocol used e.g. UDP/TCP.
+ThePacsniff created in Python 3. Allows you to monitor traffic running through local network. Allows the user to be able to view Source of the packets, Target host and the type of protocol used e.g. TCP.
 
 # Requirement
 
@@ -12,27 +13,23 @@ ThePacsniff created in Python 3. Allows you to monitor traffic running through l
 
 # Support
 
-Support IPv6 : ICMP ,UDP, TCP
+Support IPv4 : TCP (I know IPv6 is the real deal but this should work for now)
 
 # Can filter
 
 That is possible filter the data from the follow packets:
-- TCP ( V4 and V6)
-- UDP ( V4 and V6)
-- ICMP( V4 and V6)
+- TCP ( V4 )
 
 # Installation     
-- Instal: pip install pynput
+- Instal: pip install socket
 
 - Clone it: git clone https://github.com/sanjokkarki/ThePacsniff.git     
 
-- Run it: python TheSpylogger.py  
+- Run it: python ThePacsniff.py  
 
-You can also convert TheSpylogger to EXE using PyInstaller or any similar tool.
+You can also convert ThePacsniff to EXE using PyInstaller or any similar tool.
 
 # Run
 
-- sudo python3 Packet-Sniffer.py
-- sudo python3 Packet-Sniffer.py UDP
-- sudo python3 Packet-Sniffer.py ICMP
-- sudo python3 Packet-Sniffer.py TCP
+- sudo python3 ThePacsniff.py
+- sudo python3 ThePacsniff.py TCP

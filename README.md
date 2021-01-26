@@ -17,9 +17,9 @@ Support IPv6 : ICMP ,UDP, TCP
 # Can filter
 
 That is possible filter the data from the follow packets:
-	- TCP ( V4 and V6)
-	- UDP ( V4 and V6)
-	- ICMP( V4 and V6)
+- TCP ( V4 and V6)
+- UDP ( V4 and V6)
+- ICMP( V4 and V6)
 
 # Run
 

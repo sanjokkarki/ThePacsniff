@@ -23,7 +23,7 @@ That is possible filter the data from the follow packets:
 
 # Run
 
-sudo python3 Packet-Sniffer.py
-sudo python3 Packet-Sniffer.py UDP
-sudo python3 Packet-Sniffer.py ICMP
-sudo python3 Packet-Sniffer.py TCP
+- sudo python3 Packet-Sniffer.py
+- sudo python3 Packet-Sniffer.py UDP
+- sudo python3 Packet-Sniffer.py ICMP
+- sudo python3 Packet-Sniffer.py TCP

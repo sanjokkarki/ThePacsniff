@@ -23,13 +23,11 @@ That is possible filter the data from the follow packets:
 # Installation     
 - Instal: pip install socket
 
-- Clone it: git clone https://github.com/sanjokkarki/ThePacsniff.git     
-
-- Run it: python ThePacsniff.py  
-
-You can also convert ThePacsniff to EXE using PyInstaller or any similar tool.
+- Clone it: git clone https://github.com/sanjokkarki/ThePacsniff.git
 
 # Run
 
 - sudo python3 ThePacsniff.py
 - sudo python3 ThePacsniff.py TCP
+
+You can also convert ThePacsniff to EXE using PyInstaller or any similar tool.
